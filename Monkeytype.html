@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css.css">
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href ="html-java.html">Home</a>
+        <a href ="übermich.html">Über mich</a>
+        <a href ="Hobbys.html">Hobbys</a>
+        <a href="settings.html">Settings</a>
+        <a href="Gallerie.html">Gallerie</a>
+        <a href="Monkeytype.html">Monkeytype</a>
+        <a href="Rechner.html">Rechner</a>
+        <a href="lebenslauf.html">lebenslauf</a>
+    </div>
+    
+    <div id="main">
+        <span style="color:white;font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
+
+    <h1>Monkeytype</h1>
+
+    <h2>30 Sekunden Englisch</h2>
+
+<table>
+    <tr>
+        <th>Datum</th>
+        <th>Wpm</th>
+        <th>Genauigkeit</th>
+    </tr>
+    <tr>
+        <td>19.08</td>
+        <td>56</td>
+        <td>90%</td>
+    </tr>
+    <tr>
+        <td>20.08</td>
+        <td>69</td>
+        <td>100%</td>
+    </tr>
+    <tr>
+        <td>26.08</td>
+        <td>61</td>
+        <td>97%</td>
+    </tr>
+    <tr>
+        <td>27.08</td>
+        <td>60</td>
+        <td>95%</td>
+    </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script>
+    function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginleft = "250px";
+            document.body.style.backgroundColor = "rgba(0,0,0,1)";
+    }
+    
+    function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginleft = "0";
+            document.body.style.backgroundColor = "#363333";
+    }
+    
+    </script>
+    
+</body>
+</html>

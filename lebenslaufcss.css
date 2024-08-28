@@ -1,0 +1,157 @@
+body{
+    font-family: Arial, Sans-Serif;
+    font-size: 0.8em;
+    background-color: rgb(54, 51, 51);
+}
+
+#paper{ 
+    max-width: 700px;
+    margin-top: 6em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    -moz-box-shadow: 0 0 4px #000000;
+    -webkit-box-shadow: 0 0 4px #000000;
+    box-shadow: 0 0 4px #000000;
+    padding: 4em;
+    border-radius: 1em;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    #sidenav {padding-top: 15px;}
+    #sidenav a {font-size: 18px;}
+  }
+
+
+h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.4em;
+    color: #990000;
+}
+
+h2.sub-headline{
+    color: #000;
+}
+
+h2{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1.4em;
+    color: #990000;
+}
+
+div.category{
+    margin-bottom: 1.4em;
+}
+
+table{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1.4em;
+}
+
+table.introduction {
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 2.4em;
+    padding: 0;
+}
+
+table.introduction h2{
+    color: #000;
+}
+
+table.introduction tr td.left, table.introduction tr td.right{
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+table.introduction tr td.right{
+    vertical-align: top;
+    margin: 0;
+    padding-left: 2em;
+}
+
+table tr{
+    margin: 0;
+    padding: 0;
+}
+
+table tr.station{
+    font-weight: bold;
+}
+
+table tr td{
+    padding-left: 0;
+}
+
+table tr td.left{
+    width: 33%;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+table tr td.left img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+table tr td.right, table.introduction tr td.right{
+    width: 66%;
+    vertical-align: top;
+    padding-left: 2em;
+}
+
+@media only screen and (max-width: 767px){
+    body{
+        font-size: 0.8em;
+    }
+}
